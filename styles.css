@@ -8,7 +8,7 @@ body {
 .header {
     padding: 30px;
     text-align: center;
-    background: white;
+    background: maroon;
 }
   
 .header h1 {
@@ -57,7 +57,7 @@ body {
   .footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: maroon;
     margin-top: 20px;
 }
   
