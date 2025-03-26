@@ -8,7 +8,7 @@ body {
 .header {
     padding: 30px;
     text-align: center;
-    background: maroon;
+    background: rgb(242, 201, 208);
 }
   
 .header h1 {
@@ -17,7 +17,7 @@ body {
   
 .topnav {
     overflow: hidden;
-    background-color: maroon;
+    background-color: rgb(242, 201, 208);
 }
 
 .fa-linkedin {
@@ -57,7 +57,7 @@ body {
   .footer {
     padding: 20px;
     text-align: center;
-    background: maroon;
+    background: rgb(252, 252, 131);
     margin-top: 20px;
 }
   
