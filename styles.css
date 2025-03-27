@@ -59,7 +59,7 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.navimg:hover .overlay {
+.column:hover .overlay {
   opacity: 1;
 }
 
