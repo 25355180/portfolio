@@ -37,6 +37,9 @@ body {
     background-color: rgb(252, 252, 131);
     color: black;
 }
+.active{
+  background-color: rgb(252, 252, 131);
+}
 
 .column {
   float: left;
