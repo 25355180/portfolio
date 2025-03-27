@@ -30,8 +30,10 @@ body {
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding-left: 15px;
+    padding-right: 15px;
     text-decoration: none;
+    margin-right: 3px;
 }
 .topnav a:hover {
     background-color: rgb(252, 252, 131);
