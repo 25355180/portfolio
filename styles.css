@@ -41,6 +41,25 @@ body {
 .active{
   background-color: rgb(252, 252, 131);
 }
+.overlay {
+  position: absolute;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: antiquewhite;
+}
+.imgtxt {
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  margin-top: 50%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 
 .column {
   float: left;
