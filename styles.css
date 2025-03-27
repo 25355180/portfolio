@@ -9,6 +9,7 @@ body {
     padding: 30px;
     text-align: center;
     background: rgb(242, 201, 208);
+    animation: bounce 1s ease-in-out infinite;
 }
   
 .header h1 {
@@ -101,5 +102,16 @@ img{
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
+  }
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
