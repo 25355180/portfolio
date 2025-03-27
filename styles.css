@@ -62,6 +62,11 @@ body {
 .column:hover .overlay {
   opacity: 1;
 }
+.navimg{
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
 .column {
   float: left;
