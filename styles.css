@@ -67,7 +67,7 @@ body {
 }
 .navimg{
   display: block;
-  width: 250px;
+  width: auto;
   height: 250px;
 }
 
