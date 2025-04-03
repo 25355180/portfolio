@@ -67,16 +67,15 @@ body {
 }
 .navimg{
   display: block;
-  width: 100%;
-  height: auto;
-  max-height: 50%;
+  width: 150px;
+  height: 150px;
 }
 
 .column {
   float: left;
   width: 25%;
   position: relative;
-  height: 25%;
+  height: auto;
 }
 .row:after {
   content: "";
