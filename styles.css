@@ -65,6 +65,9 @@ body {
 .column:hover .overlay {
   opacity: 1;
 }
+.header:hover{
+  rotate: 360deg;
+}
 .navimg{
   display: block;
   width: 100%;
