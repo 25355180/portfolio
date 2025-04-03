@@ -67,8 +67,8 @@ body {
 }
 .navimg{
   display: block;
-  width: 250px;
-  height: 250px;
+  width: 100%;
+  height: auto;
 }
 
 .column {
