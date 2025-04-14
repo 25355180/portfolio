@@ -9,7 +9,8 @@ body {
 
 .header {
     padding: 30px;
-    text-align: left;
+    display: flex;
+    justify-content: space-between;
 }
   
 .header h1 {
@@ -50,50 +51,7 @@ iframe{
 .active{
   background-color: rgb(252, 252, 131);
 }
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: antiquewhite;
-}
-.imgtxt {
-  color: black;
-  font-size: 30px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
 
-}
-.column:hover .overlay {
-  opacity: 1;
-}
-h1:hover{
-  transform: rotate(360deg); 
-  transition: transform 0.5s; 
-}
-.navimg{
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.column {
-  float: left;
-  width: 25%;
-  position: relative;
-  height: auto;
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 img{
   width: 100%;
   height: auto;
@@ -102,7 +60,6 @@ img{
 .footer {
     padding: 20px;
     text-align: center;
-    background: rgb(252, 252, 131);
     margin-top: 20px;
 }
   
