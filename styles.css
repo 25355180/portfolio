@@ -14,7 +14,7 @@ body {
     justify-content: space-between;
     align-items: center;
     border-bottom: 3px solid transparent;
-    border-image: linear-gradient(to right, transparent 20%, black 60%, transparent 80%) 1;
+    border-image: linear-gradient(to right, transparent 10%, black 80%, transparent 90%) 1;
     width: 80%;
     height: auto;
     position: relative;
