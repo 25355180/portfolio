@@ -1,7 +1,7 @@
 body {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   padding: 10px;
-  background-color: rgb(1, 2, 34);
+  background-color: rgb(255, 119, 0);
   margin: 0;
   border: 10px solid black;
   border-radius: 10%;
@@ -55,7 +55,7 @@ iframe{
 }
 
 img{
-  width: 100%;
+  width: 50%;
   height: auto;
 }
   
