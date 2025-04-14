@@ -13,7 +13,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid black;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, black 50%, transparent 50%) 1;
 }
   
 .header h1 {
@@ -34,6 +35,8 @@ body {
 .fa-linkedin {
   background: #007bb5;
   color: white;
+  display: flex;
+  justify-self: right;
 }
 iframe{
   width: 100%;
@@ -72,7 +75,6 @@ img{
   
 .footer {
     padding: 20px;
-    text-align: center;
     margin-top: 20px;
 }
   
