@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid transparent;
+    border-bottom: 3px solid transparent;
     border-image: linear-gradient(to right, transparent 20%, black 60%, transparent 80%) 1;
     width: 80%;
     height: auto;
