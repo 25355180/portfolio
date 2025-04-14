@@ -22,7 +22,7 @@ body {
 }
   
 .header h1 {
-    font-size: 100px;
+    font-size: 80px;
     font-style: italic;
     position: relative;
     width: 100%;
@@ -32,7 +32,7 @@ body {
 }
 .power {
   display: flex;
-  font-size: 60px;
+  font-size: 50px;
   position: relative;
   width: 100%;
   height: auto;
