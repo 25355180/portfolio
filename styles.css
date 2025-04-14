@@ -14,7 +14,7 @@ body {
     justify-content: space-between;
     align-items: center;
     border: 2px solid transparent;
-    border-image: linear-gradient(to right, black 50%, transparent 50%) 1;
+    border-image: linear-gradient(to right, transparent 20% black 60%, transparent 20%) 1;
 }
   
 .header h1 {
