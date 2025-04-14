@@ -36,7 +36,9 @@ body {
 .fa-linkedin {
   background: #007bb5;
   color: white;
+  position: relative;
   float: right;
+  right: 100px;
 }
 iframe{
   width: 100%;
