@@ -21,7 +21,7 @@ body {
 }
   
 .header h1 {
-    font-size: 600%;
+    font-size: 100px;
     font-style: italic;
     position: relative;
     width: 100%;
@@ -31,7 +31,7 @@ body {
 }
 .power {
   display: flex;
-  font-size: 360%;
+  font-size: 60px;
   position: relative;
   width: 100%;
   height: auto;
