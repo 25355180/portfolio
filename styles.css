@@ -18,6 +18,8 @@ body {
   display: inline-block;
   transform: rotate(45deg); 
   position: relative;
+  left: 100px;
+  bottom: 100px;
 }
 .topnav {
     overflow: hidden;
