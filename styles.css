@@ -16,8 +16,8 @@ body {
 }
 .angle {
   display: inline-block;
-  transform: rotate(-45deg); 
-  margin-top: 150px;
+  transform: rotate(45deg); 
+  margin-bottom: 150px;
 }
 .topnav {
     overflow: hidden;
