@@ -20,7 +20,7 @@ body {
 .header h1 {
     font-size: 100px;
     font-style: italic;
-    align-self: center;
+    left: 100px;
 }
 .power {
   display: inline-block;
