@@ -29,10 +29,10 @@ body {
     width: 100%;
     height: auto;
     margin-right: 10px;
-
+    display: flex;
 }
 .power {
-  display: inline-block;
+  display: flex;
   font-size: 360%;
   position: relative;
   width: 100%;
