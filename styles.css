@@ -15,7 +15,7 @@ body {
     align-items: center;
     border: 2px solid transparent;
     border-image: linear-gradient(to right, transparent 20%, black 60%, transparent 80%) 1;
-    width: 100%;
+    width: 80%;
     height: auto;
     position: relative;
     flex-wrap: wrap;
@@ -33,7 +33,6 @@ body {
   display: flex;
   font-size: 50px;
   position: relative;
-  right: 100px;
   padding-left: 10px;
 }
 .topnav {
