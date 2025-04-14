@@ -24,11 +24,15 @@ body {
     font-style: italic;
     position: relative;
     left: 100px;
+    width: 100%;
+    height: auto;
 }
 .power {
   display: inline-block;
   font-size: 60px;
   position: relative;
+  width: 100%;
+  height: auto;
   
 }
 .topnav {
