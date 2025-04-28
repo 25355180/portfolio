@@ -13,7 +13,9 @@ p{
 h2{
   font-size: 40px;
 }
-
+a{
+  text-decoration: none;
+}
 .header {
     padding: 30px;
     display: flex;
