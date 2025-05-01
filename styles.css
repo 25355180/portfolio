@@ -22,6 +22,9 @@ body {
 .suspicious:hover + .secret {
   display: block;
 }
+.suspicious:hover::after {
+  content: "Hey! I told you there was nothing to see"; /* Changes the text when hovered */
+}
 #cross{
   text-decoration: dashed;
 }
