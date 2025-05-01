@@ -1,7 +1,8 @@
 body {
   font-family: "Turret Road", sans-serif;
   padding: 20px;
-  background: linear-gradient(to bottom, rgb(250, 145, 53), rgb(246, 241, 111), url("bg.png"));
+  background: url("binary.png");
+  background: linear-gradient(to bottom, rgb(250, 145, 53), rgb(246, 241, 111));
   background-blend-mode: multiply;
   margin: 0;
   border: 10px solid black;
