@@ -7,6 +7,8 @@ body {
   border: 10px solid black;
   border-radius: 9%;
   color: black;
+  background-image: url("binary.png");
+  background-repeat: repeat;
 }
 .signature{
   width: 10%;
@@ -33,16 +35,16 @@ li{
   font-size: 30px;
 }
 .header {
-    padding: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 3px solid transparent;
-    border-image: linear-gradient(to right, transparent 0%, black 50%, transparent 100%) 1;
-    width: 80%;
-    height: auto;
-    position: relative;
-    flex-wrap: wrap;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(to right, transparent 0%, black 50%, transparent 100%) 1;
+  width: 80%;
+  height: auto;
+  position: relative;
+  flex-wrap: wrap;
 }
 .limited{
   display: inline-block;
