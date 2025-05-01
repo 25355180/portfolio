@@ -19,9 +19,10 @@ body {
 .secret{
   display: none;
 }
-.secret:hover{
+.suspicious:hover + .secret {
   display: block;
 }
+
 p{
   font-size: 25px;
   margin: 10px;
