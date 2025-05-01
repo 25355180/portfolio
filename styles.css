@@ -22,7 +22,9 @@ body {
 .suspicious:hover + .secret {
   display: block;
 }
-
+#cross{
+  text-decoration: dashed;
+}
 p{
   font-size: 25px;
   margin: 10px;
