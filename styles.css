@@ -6,10 +6,11 @@ body {
   border: 10px solid black;
   border-radius: 9%;
   color: black;
-  background-image: url("bg.png");
-  background-size:contain;
-  background-position: center;
-  background-repeat: no-repeat;
+}
+.signature{
+  width: 10%;
+  display: flex;
+  justify-content: right;
 }
 p{
   font-size: 25px;
