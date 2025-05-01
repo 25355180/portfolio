@@ -16,6 +16,12 @@ body {
   margin-right: 10%;
   margin-bottom: 5%;
 }
+.secret{
+  display: none;
+}
+.secret:hover{
+  display: block;
+}
 p{
   font-size: 25px;
   margin: 10px;
