@@ -13,6 +13,7 @@ body {
 .signature{
   width: 10%;
   display: flex;
+  position: relative;
   float: right;
   margin-right: 10%;
   margin-bottom: 5%;
