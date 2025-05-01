@@ -10,7 +10,7 @@ body {
 .signature{
   width: 10%;
   display: flex;
-  justify-content: right;
+  float: right;
 }
 p{
   font-size: 25px;
