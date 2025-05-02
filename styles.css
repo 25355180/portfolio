@@ -13,8 +13,6 @@ body {
   display: flex;
   position: relative;
   float: right;
-  margin-right: 10%;
-  margin-bottom: 5%;
 }
 .secret{
   display: none;
