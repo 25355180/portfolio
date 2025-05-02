@@ -59,7 +59,7 @@ li{
 }
 .limited {
   position: absolute; 
-  top: 8%;
+  top: 20%;
   right: -15%;
   transform: rotate(40deg);
 }
