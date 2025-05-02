@@ -58,7 +58,7 @@ li{
   flex-wrap: wrap;
 }
 .limited{
-  display: inline-block;
+  display: flex;
   transform: rotate(45deg); 
   position: relative;
   left: 5%;
