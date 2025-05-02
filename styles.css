@@ -57,12 +57,11 @@ li{
   position: relative;
   flex-wrap: wrap;
 }
-.limited{
-  display: flex;
-  transform: rotate(45deg); 
-  position: relative;
-  left: 5%;
-  bottom: 5%;
+.limited {
+  position: absolute; 
+  top: 0; 
+  left: 5%; 
+  transform: rotate(45deg);
 }
 .header h1 {
     font-size: 80px;
