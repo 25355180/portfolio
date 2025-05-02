@@ -60,7 +60,7 @@ li{
 .limited {
   position: absolute; 
   top: 0; 
-  left: 5%; 
+  right: 0;
   transform: rotate(45deg);
 }
 .header h1 {
