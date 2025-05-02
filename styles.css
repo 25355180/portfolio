@@ -59,10 +59,11 @@ li{
 }
 .limited {
   position: absolute; 
-  top: 0; 
-  right: 0;
-  transform: rotate(45deg);
+  top: 10%;
+  right: 0%;
+  transform: rotate(40deg);
 }
+
 .header h1 {
     font-size: 80px;
     font-style: italic;
