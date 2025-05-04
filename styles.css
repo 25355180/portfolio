@@ -106,23 +106,23 @@ img{
   margin-top: 20px;
 }
 nav{
-  color: darkred;
+  color: black;
   text-align: center;
   text-decoration: none;
   font-size: 30px;
   padding: 20px;
   display: flex;
-  background-color: 246, 241, 111;
+  background-color: rgb(246, 241, 111);
   height: auto;
   justify-content: space-between;
 }
 .homeLink:hover {
   background-color: rgb(250, 145, 53);
-  color: antiquewhite;
+  color: black;
 }
 #active{
-  background-color: red;
-  color: antiquewhite;
+  background-color: rgb(250, 145, 53);
+  color: black;
   margin: 10px;
 }
 button{
