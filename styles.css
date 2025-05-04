@@ -67,11 +67,11 @@ li{
 }
 
 .header h1 {
-    font-size: 80px;
-    font-style: italic;
-    position: relative;
-    padding-right: 10px;
-    display: flex;
+  font-size: 80px;
+  font-style: italic;
+  position: relative;
+  padding-right: 10px;
+  display: flex;
 }
 .power {
   display: flex;
@@ -112,12 +112,12 @@ nav{
   font-size: 30px;
   padding: 20px;
   display: flex;
-  background-color: bisque;
+  background-color: 246, 241, 111;
   height: auto;
   justify-content: space-between;
 }
 .homeLink:hover {
-  background-color: red;
+  background-color: rgb(250, 145, 53);
   color: antiquewhite;
 }
 #active{
