@@ -47,12 +47,12 @@
         <li>I'm an introvert</li>
         <li>My lucky number is 8</li>
     </ul>
-    <button onclick="spin()">Do NOT press this button</button>
+    <button id="spinMe" onclick="spin()">Do NOT press this button</button>
 
     <script>
         function spin() {
             document.body.classList.toggle('rotate');
-            let button = document.getElementById('spinButton');
+            let button = document.getElementById('spinMe');
             button.innerHTML = button.innerHTML === "Do NOT press this button" ? "Now why would you press that?" : "Do NOT press this button";
         }
     </script>
