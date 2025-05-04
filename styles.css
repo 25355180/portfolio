@@ -144,6 +144,9 @@ button{
 .limited:hover {
   transform: scale(1.7);
 }
+h1:hover {
+  transform: scale(1.5);
+}
 @keyframes rotate {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
