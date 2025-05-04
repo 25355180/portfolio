@@ -140,7 +140,10 @@ button{
   font-weight: bold;
   transition: transform 0.4s ease-in-out;
 }
-
+.workImg{
+  width: 50%;
+  height: auto;
+}
 .limited:hover {
   transform: scale(1.7);
 }
