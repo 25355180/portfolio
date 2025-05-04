@@ -104,17 +104,6 @@ img{
   margin-top: 20px;
 }
 nav{
-  display: flex;
-  width: 80%;
-  align-items: center;
-  justify-content: space-between;
-  color: bisque;
-  text-align: center;
-  margin: 0;
-  font-weight: bold;
-  background-color: darkred;
-}
-nav:hover {
   color: darkred;
   text-align: center;
   text-decoration: none;
@@ -127,6 +116,10 @@ nav:hover {
   background-color: bisque;
   justify-self: center;
   height: auto;
+}
+nav:hover {
+  background-color: red;
+  color: antiquewhite;
 }
 #active{
   background-color: red;
