@@ -103,4 +103,11 @@ img{
   padding: 20px;
   margin-top: 20px;
 }
-  
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.rotate {
+  animation: spin 1.5s ease-in-out;
+}
