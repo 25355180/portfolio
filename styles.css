@@ -114,7 +114,7 @@ nav{
   font-weight: bold;
   background-color: darkred;
 }
-nav a {
+nav:hover {
   color: darkred;
   text-align: center;
   text-decoration: none;
@@ -125,9 +125,12 @@ nav a {
   padding-right: 5px;
   display: flex;
   background-color: bisque;
+  justify-self: center;
+  height: auto;
 }
 #active{
-  background-color: bisque;
+  background-color: red;
+  color: antiquewhite;
 }
 button{
   color: antiquewhite;
