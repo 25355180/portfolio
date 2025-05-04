@@ -116,8 +116,9 @@ nav{
   background-color: bisque;
   justify-self: center;
   height: auto;
+  justify-content: space-between;
 }
-nav:hover {
+.homeLink:hover {
   background-color: red;
   color: antiquewhite;
 }
