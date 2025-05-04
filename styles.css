@@ -120,6 +120,10 @@ nav{
   background-color: rgb(250, 145, 53);
   color: black;
 }
+.homeLink{
+  padding-left: 5px;
+  padding-right: 5px;
+}
 #active{
   background-color: rgb(250, 145, 53);
   color: black;
