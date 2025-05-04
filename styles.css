@@ -120,10 +120,12 @@ nav{
 .homeLink:hover {
   background-color: red;
   color: antiquewhite;
+  padding: 20px;
 }
 #active{
   background-color: red;
   color: antiquewhite;
+  padding: 20px;
 }
 button{
   color: antiquewhite;
