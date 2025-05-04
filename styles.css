@@ -108,6 +108,23 @@ nav{
   width: 80%;
   align-items: center;
   justify-content: space-between;
+  color: bisque;
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+  background-color: darkred;
+}
+nav a {
+  color: darkred;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  background-color: bisque;
 }
 #active{
   background-color: bisque;
