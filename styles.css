@@ -109,5 +109,5 @@ img{
 }
 
 .rotate {
-  animation: spin 1.5s ease-in-out;
+  animation: rotate 1.5s ease-in-out;
 }
