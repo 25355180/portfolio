@@ -52,6 +52,8 @@
     <script>
         function spin() {
             document.body.classList.toggle('rotate');
+            let button = document.getElementById('spinButton');
+            button.innerHTML = button.innerHTML === "Do NOT press this button" ? "Now why would you press that?" : "Do NOT press this button";
         }
     </script>
 
