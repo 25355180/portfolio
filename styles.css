@@ -108,10 +108,7 @@ nav{
   text-align: center;
   text-decoration: none;
   font-size: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding: 20px;
   display: flex;
   background-color: bisque;
   height: auto;
@@ -120,12 +117,11 @@ nav{
 .homeLink:hover {
   background-color: red;
   color: antiquewhite;
-  padding: 20px;
+
 }
 #active{
   background-color: red;
   color: antiquewhite;
-  padding: 20px;
 }
 button{
   color: antiquewhite;
