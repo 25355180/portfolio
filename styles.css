@@ -114,7 +114,6 @@ nav{
   padding-right: 5px;
   display: flex;
   background-color: bisque;
-  justify-self: center;
   height: auto;
   justify-content: space-between;
 }
