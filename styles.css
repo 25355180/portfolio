@@ -162,7 +162,9 @@ h1:hover {
 }
 #footertxt{
   position: relative;
-  margin-left: 20%;
+}
+footer{
+  text-align: center;
 }
 .showcase {
   margin: 5px auto;
