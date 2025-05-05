@@ -158,6 +158,10 @@ h1:hover {
   width: 70%;
   align-items: center;
   justify-self: center;
+  padding: 5px;
+}
+.description{
+  font-size: 20px;
 }
 .showcase:hover{
   transform: scale(1.1);
