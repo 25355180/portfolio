@@ -186,6 +186,8 @@ h1:hover {
   position: relative;
   width: 50%;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .overlay {
   position: absolute;
