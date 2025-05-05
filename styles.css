@@ -98,7 +98,7 @@ img{
   height: auto;
   display: block;
   border: 5px solid black;
-  margin: 0 auto;
+  margin: auto;
 }
   
 .footer {
@@ -185,6 +185,7 @@ h1:hover {
 .imgOverlay {
   position: relative;
   width: 50%;
+  text-align: center;
 }
 .overlay {
   position: absolute;
