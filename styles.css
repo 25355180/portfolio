@@ -94,10 +94,9 @@ img{
   height: auto;
 }
 .me{
-  width: 40%;
+  width: 100%;
   height: auto;
-  display: flex;
-  justify-self: center;
+  display: block;
   border: 5px solid black;
 }
   
