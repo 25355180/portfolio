@@ -161,6 +161,7 @@ h1:hover {
 }
 .description{
   font-size: 25px;
+  text-align: left;
 }
 .showcase:hover{
   transform: scale(1.1);
