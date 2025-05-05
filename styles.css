@@ -212,6 +212,7 @@ h1:hover {
   .navbar.responsive a {
     float: none;
     display: flex;
+    text-align: center;
     /* sets the position of the small screen nav bar */
   }
 }
