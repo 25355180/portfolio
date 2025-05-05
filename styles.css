@@ -158,7 +158,7 @@ h1:hover {
 }
 #abouttxt{
   text-align: center;
-  right: 20%;
+  background-color: rgb(246, 241, 111);
 }
 .showcase {
   margin: 5px auto;
