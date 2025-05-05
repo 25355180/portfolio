@@ -185,6 +185,7 @@ h1:hover {
   text-align: center;
   display: flex;
   justify-content: center;
+  left: 25%;
 }
 .overlay {
   position: absolute;
@@ -196,7 +197,6 @@ h1:hover {
   width: 0;
   height: 100%;
   transition: .5s ease;
-  left: 25%;
 }
 .imgOverlay:hover .overlay {
   width: 100%;
