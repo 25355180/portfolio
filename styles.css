@@ -216,4 +216,7 @@ h1:hover {
     justify-content: center;
     /* sets the position of the small screen nav bar */
   }
+  .limited{
+    display: none;
+  }
 }
