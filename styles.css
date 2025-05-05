@@ -157,6 +157,7 @@ h1:hover {
   align-items: center;
   justify-self: center;
   padding: 5px;
+  text-align: center;
 }
 .description{
   font-size: 25px;
