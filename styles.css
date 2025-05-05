@@ -141,6 +141,7 @@ button{
 .workImg{
   width: 50%;
   height: auto;
+  display: inline-block;
 }
 .limited:hover {
   transform: scale(1.7);
