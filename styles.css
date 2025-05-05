@@ -144,7 +144,7 @@ button{
   display: inline-block;
 }
 .limited:hover {
-  transform: scale(1.7);
+  transform: scale(1.5);
 }
 h1:hover {
   transform: scale(1.1);
