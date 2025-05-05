@@ -213,6 +213,7 @@ h1:hover {
     float: none;
     display: flex;
     text-align: center;
+    justify-content: center;
     /* sets the position of the small screen nav bar */
   }
 }
