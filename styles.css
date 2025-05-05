@@ -79,8 +79,6 @@ li{
   position: relative;
   padding-left: 10px;
 }
-
-
 .fa-linkedin {
   background: #007bb5;
   color: white;
@@ -88,7 +86,6 @@ li{
   float: right;
   right: 10%;
 }
-
 img{
   width: 100%;
   height: auto;
@@ -99,6 +96,7 @@ img{
   display: block;
   border: 5px solid black;
   margin: auto;
+  left: 15%;
 }
   
 .footer {
