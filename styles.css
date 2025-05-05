@@ -159,6 +159,7 @@ h1:hover {
 #abouttxt{
   text-align: center;
   background-color: rgb(246, 241, 111);
+  width: 90%;
 }
 #footertxt{
   position: relative;
