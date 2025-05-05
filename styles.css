@@ -152,6 +152,7 @@ h1:hover {
 .aboutImg{
   width: 35%;
   height: auto;
+  margin: 10px;
 }
 .showcase {
   margin: 5px auto;
