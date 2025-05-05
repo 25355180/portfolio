@@ -155,6 +155,7 @@ h1:hover {
   border: 1px solid rgb(246, 241, 111);
   display: inline-flex;
   justify-content: space-between;
+  width: 80%;
 }
 .showcase:hover{
   transform: scale(1.1);
