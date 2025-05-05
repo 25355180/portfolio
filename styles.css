@@ -153,8 +153,8 @@ h1:hover {
 .showcase {
   margin: 5px;
   border: 1px solid rgb(246, 241, 111);
-  float: left;
-  width: 180px;
+  display: inline-flex;
+  justify-content: space-between;
 }
 .showcase:hover{
   transform: scale(1.1);
