@@ -150,6 +150,15 @@ button{
 h1:hover {
   transform: scale(1.1);
 }
+.showcase {
+  margin: 5px;
+  border: 1px solid rgb(246, 241, 111);
+  float: left;
+  width: 180px;
+}
+.showcase:hover{
+  transform: scale(1.1);
+}
 @keyframes rotate {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
