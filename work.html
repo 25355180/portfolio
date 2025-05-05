@@ -16,7 +16,16 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico"><!-- sets the tab image -->
 </head>
 <body>
-
+    <script>
+        function fixNav() {
+        var x = document.getElementById("navigation");
+        if (x.className === "navbar") {
+            x.className += " responsive";
+        } else {
+            x.className = "navbar";
+        }
+        }
+    </script>
   <div class="header">
     <a href="index.html"><h1>ALISON MARSH</h1></a>
     <p class="limited">Limited edition!</p>
