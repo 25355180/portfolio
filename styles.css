@@ -98,7 +98,7 @@ img{
   height: auto;
   display: block;
   border: 5px solid black;
-  align-self: center;
+  margin: auto;
 }
   
 .footer {
