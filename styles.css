@@ -151,8 +151,7 @@ h1:hover {
 .showcase {
   margin: 5px auto;
   border: 1px solid rgb(246, 241, 111);
-  display: flex;
-  justify-content: space-between;
+  position: relative;
   width: 75%;
   align-items: center;
   justify-self: center;
