@@ -94,7 +94,7 @@ img{
   height: auto;
 }
 .me{
-  width: 60%;
+  width: 100%;
   height: auto;
   display: block;
   border: 5px solid black;
@@ -193,11 +193,11 @@ h1:hover {
   background-color: black;
   overflow: hidden;
   width: 0;
-  height: 60%;
+  height: 100%;
   transition: .5s ease;
 }
 .imgOverlay:hover .overlay {
-  width: 60%;
+  width: 100%;
   left: 0;
 }
 .txt {
