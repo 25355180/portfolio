@@ -96,7 +96,6 @@ img{
   display: block;
   border: 5px solid black;
   margin: auto;
-  left: 15%;
 }
   
 .footer {
@@ -197,6 +196,7 @@ h1:hover {
   width: 0;
   height: 100%;
   transition: .5s ease;
+  left: 25%;
 }
 .imgOverlay:hover .overlay {
   width: 100%;
