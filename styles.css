@@ -105,7 +105,7 @@ img{
   padding: 20px;
   margin-top: 20px;
 }
-nav{
+.navbar{
   color: black;
   text-align: center;
   text-decoration: none;
@@ -166,6 +166,22 @@ h1:hover {
 .showcase:hover{
   transform: scale(1.1);
 }
+
+.navbar .icon {
+  display: none;
+  /* hides navbar icon when widescreen*/
+}
+.navbar {
+  overflow: hidden;
+   /* doesnt allow text to overflow*/
+}
+.navbar .icon {
+  display: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* sets the styles and position for the navbar icon on the small screen navbar*/
+}
+
 @keyframes rotate {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
@@ -173,4 +189,29 @@ h1:hover {
 
 .rotate {
   animation: rotate 1.5s ease-in-out;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}    /* changes the navbar to just show home when screen is small*/
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {
+      position: relative;
+      display: flex;
+      flex-direction: column;}    /* sets the position of the items in the small screen nav bar to display in a column*/
+  .navbar.responsive a.icon {
+    position: absolute;    /* sets the position of the small screen nav bar icon*/
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: flex;
+    /* sets the position of the small screen nav bar */
+  }
 }

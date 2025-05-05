@@ -16,18 +16,30 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico"><!-- sets the tab image -->
 </head>
 <body>
-
+  <script>
+    function fixNav() {
+    var x = document.getElementById("navigation");
+    if (x.className === "navbar") {
+      x.className += " responsive";
+    } else {
+      x.className = "navbar";
+    }
+  }
+  </script>
   <div class="header">
     <a href="index.html"><h1>ALISON MARSH</h1></a>
     <p class="limited">Limited edition!</p>
     <p class="power">POWER: 21</p>
   </div>
-  <nav>
+  <nav class="navbar" id="navigation">
     <a href="index.html" class="homeLink" id="active">Home</a>
     <a href="about.html" class="homeLink">About</a>
     <a href="work.html" class="homeLink">Work</a>
     <a href="cv.html" class="homeLink">CV</a>
     <a href="contact.html" class="homeLink">Contact</a>
+    <a href="javascript:void(0);" aria-label="navbar" class="icon" onclick="fixNav()"><!-- changes nav bar to a list when screen is small -->
+      <i class="fa fa-bars"></i>
+  </a>
   </nav>
   <p>A web design student who currently works in the hospitality industry. 
     She's experienced with bar work and coding and never misses a deadline. A triple threat. 
